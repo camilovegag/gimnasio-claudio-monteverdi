@@ -1,0 +1,107 @@
+footer {
+  align-items: center;
+  background-color: #0b1648;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  min-height: 18.75rem;
+  padding: 0 6rem;
+}
+/* Logo */
+.logo {
+  align-items: center;
+  display: flex;
+}
+
+.logo img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.logo-name {
+  color: #fff;
+  font-weight: 700;
+  margin-left: 1.5rem;
+  text-transform: uppercase;
+}
+
+/* Height for footer contents */
+.info,
+.social-media,
+.docs {
+  height: 8.188rem;
+}
+
+/* Info */
+.email,
+.phone,
+.address {
+  display: flex;
+}
+.email p,
+.phone p,
+.address p {
+  margin-left: 1.5rem;
+  font-size: 0.875rem;
+}
+
+/* Social media */
+.facebook,
+.instagram,
+.youtube {
+  cursor: pointer;
+  display: flex;
+}
+.facebook p,
+.instagram p,
+.youtube p {
+  font-size: 0.875rem;
+  margin-left: 1.5rem;
+}
+
+/* Docs */
+.privacy-policy p {
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+@media (max-width: 1920px) {
+  footer {
+    padding: 0 9rem;
+  }
+}
+@media (max-width: 1440px) {
+  footer {
+    padding: 0 6rem;
+  }
+}
+@media (max-width: 1366px) {
+  footer {
+    padding: 0 4rem;
+  }
+}
+@media (max-width: 1024px) {
+  footer {
+    align-items: start;
+    flex-direction: column;
+    padding: 4rem;
+  }
+  .info,
+  .social-media,
+  .docs {
+    margin-bottom: 1.5rem;
+    width: 22rem;
+  }
+  .docs {
+    height: 3.75em;
+  }
+}
+@media (max-width: 414px) {
+  footer {
+    padding: 2rem;
+  }
+}
+@media (max-width: 375px) {
+  footer {
+    padding: 1rem;
+  }
+}
