@@ -21,7 +21,7 @@ header {
 
 .logo h1 {
   color: #3254fb;
-  font-weight: 800;
+  font-weight: 700;
   margin-left: 1.5rem;
   text-transform: uppercase;
 }
@@ -32,5 +32,6 @@ nav ul {
   list-style: none;
 }
 nav ul li {
+  font-size: 0.875rem;
   margin-left: 3rem;
 }
