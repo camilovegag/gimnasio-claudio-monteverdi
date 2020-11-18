@@ -31,7 +31,48 @@ nav ul {
   display: flex;
   list-style: none;
 }
-nav ul li {
+
+.link {
+  color: #000;
   font-size: 0.875rem;
   margin-left: 3rem;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #3254fb;
+}
+
+@media (max-width: 1920px) {
+  header {
+    padding: 0 9rem;
+  }
+}
+@media (max-width: 1440px) {
+  header {
+    padding: 0 6rem;
+  }
+}
+@media (max-width: 1366px) {
+  header {
+    padding: 0 4rem;
+  }
+}
+@media (max-width: 1024px) {
+  nav {
+    display: none;
+  }
+}
+@media (max-width: 414px) {
+  header {
+    padding: 0 2rem;
+  }
+  .logo h1 {
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 375px) {
+  header {
+    padding: 0 1rem;
+  }
 }
