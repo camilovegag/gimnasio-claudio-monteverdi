@@ -3,7 +3,7 @@ header {
   background-color: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
-  min-height: 6rem;
+  height: 6rem;
   padding: 0 6rem;
 }
 
@@ -19,7 +19,7 @@ header {
   width: 4rem;
 }
 
-.logo h1 {
+.logo-name {
   color: #3254fb;
   font-weight: 700;
   margin-left: 1.5rem;
@@ -27,6 +27,7 @@ header {
 }
 
 /* Nav links */
+
 nav ul {
   display: flex;
   list-style: none;
@@ -41,6 +42,9 @@ nav ul {
 
 .link:hover {
   color: #3254fb;
+}
+.drawer {
+  display: none;
 }
 
 @media (max-width: 1920px) {
@@ -61,6 +65,9 @@ nav ul {
 @media (max-width: 1024px) {
   nav {
     display: none;
+  }
+  .drawer {
+    display: block;
   }
 }
 @media (max-width: 414px) {
