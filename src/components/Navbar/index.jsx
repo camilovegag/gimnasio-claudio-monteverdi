@@ -7,7 +7,7 @@ import { Drawer } from "antd";
 const Navbar = () => {
   return (
     <header>
-      <div className={styles.logo}>
+      <div className={styles["logo"]}>
         <img src="https://firebasestorage.googleapis.com/v0/b/claudio-monteverdi.appspot.com/o/logos%2Flogo.svg?alt=media&token=6a6abe39-bb52-45c9-a65a-49d6b953af9b" alt="" />
         <h1 className={styles["logo-name"]}>
           Gimnasio <br /> Claudio <br /> Monteverdi
@@ -16,27 +16,27 @@ const Navbar = () => {
       <nav>
         <ul>
           <li>
-            <Link className={styles.link} to="/">
+            <Link className={styles["link"]} to="/">
               Inicio
             </Link>
           </li>
           <li>
-            <Link className={styles.link} to="about">
+            <Link className={styles["link"]} to="about">
               ¿Quiénes somos?
             </Link>
           </li>
           <li>
-            <Link className={styles.link} to="projects">
+            <Link className={styles["link"]} to="projects">
               Proyectos
             </Link>
           </li>
           <li>
-            <Link className={styles.link} to="homeschool">
+            <Link className={styles["link"]} to="homeschool">
               Homeschool
             </Link>
           </li>
           <li>
-            <Link className={styles.link} to="">
+            <Link className={styles["link"]} to="">
               Contácto
             </Link>
           </li>
@@ -58,7 +58,7 @@ const MyDrawer = () => {
     setVisible(false);
   };
   return (
-    <div className={styles.drawer}>
+    <div className={styles["drawer"]}>
       <MenuOutlined onClick={showDrawer} />
       <Drawer title="Menú de navegación" placement="left" closable={false} onClose={onClose} visible={visible}>
         <p>
