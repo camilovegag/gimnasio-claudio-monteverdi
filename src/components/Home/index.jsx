@@ -3,6 +3,7 @@ import styles from "./index.module.css";
 import { Carousel } from "antd";
 import "antd/dist/antd.css";
 import Slide from "./Slide";
+import Testimony from "./Testimony";
 
 const Home = () => {
   return (
@@ -39,7 +40,28 @@ const Home = () => {
         <h3>Modalidad de alternancia</h3>
         <p>Combinamos presencialidad con aprendizaje remoto, cumpliendo protocolos de bioseguridad.</p>
       </section>
-      <section></section>
+      <section className={styles["testimonials"]}>
+        <h2>Testimonios</h2>
+        <Carousel autoplay className={styles["testimonials-carousel"]}>
+          <Testimony
+            quote='"Nosotros veníamos de un modelo homeschool, y llegamos al Monteverdi. Nos gustó la calidad humana, el buen trato de todos los  integrantes de la institución, veo a los niños tranquilos y alegres,  y eso nos hace sentir que estamos en el mejor lugar."'
+            family="Familia Castro Méndez"
+          />
+          <Testimony quote='"Resalto el proceso de inclusión, el cariño, la metodología y el trabajo con niños que tiene capacidades diversas."' family="Familia Rodríguez Gaitán" />
+          <Testimony
+            quote='"Me gusta mucho el trabajo enfocado en el desarrollo de las inteligencias múltiples. Los niños no están encasillados pues reconocen sus habilidades propias y particulares. La tranquilidad de saber que están en un lugar donde está feliz y bien cuidado."'
+            family="Familia Vásquez Marín"
+          />
+          <Testimony
+            quote='"Se rescata la calidez humana, el acompañamiento de las docentes para que cada estudiante logre aprender. La utilización de diferentes estrategias para que aprendan de manera significativa, estimula la creatividad y fortalece los talentos de los niños"'
+            family="Familia Barrera Peñaranda"
+          />
+          <Testimony
+            quote='"Estamos contentos y satisfechos porque el colegio ha sabido responder muy bien a los cambios que ha exigido la pandemia, tiene bases sólidas y muy claras."'
+            family="Familia Rodríguez Sarmiento"
+          />
+        </Carousel>
+      </section>
     </main>
   );
 };

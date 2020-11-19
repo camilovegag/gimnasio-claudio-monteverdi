@@ -1,0 +1,22 @@
+.testimony {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.quote {
+  font-style: italic;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+  height: 12rem;
+  max-width: 35rem;
+  text-align: center;
+}
+.family {
+  color: #ff693b;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+  text-align: center;
+}
