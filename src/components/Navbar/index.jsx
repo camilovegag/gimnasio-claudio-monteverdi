@@ -59,7 +59,7 @@ const MyDrawer = () => {
   };
   return (
     <div className={styles["drawer"]}>
-      <MenuOutlined onClick={showDrawer} />
+      <MenuOutlined className={styles["menu-icon"]} onClick={showDrawer} />
       <Drawer title="Menú de navegación" placement="left" closable={false} onClose={onClose} visible={visible}>
         <p>
           <Link to="/">Inicio</Link>

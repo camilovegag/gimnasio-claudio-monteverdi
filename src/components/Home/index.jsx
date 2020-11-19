@@ -7,7 +7,7 @@ import Slide from "./Slide";
 const Home = () => {
   return (
     <main>
-      <section className={styles["carousel"]}>
+      <section>
         <Carousel autoplay>
           <Slide background="yellow" h3="Educamos con amor" h3Color="red-h3" p="Contribuyendo con la construcción de un mundo mejor." button="Contáctanos" buttonColor="red-button" />
           <Slide
@@ -30,7 +30,15 @@ const Home = () => {
           />
         </Carousel>
       </section>
-      <section></section>
+      <section className={styles["schedule"]}>
+        <h2>Matrículas abiertas</h2>
+        <h3>Calendario A</h3>
+        <p>Iniciamos clases en febrero y terminamos en noviembre.</p>
+        <h3>Preescolar y básica primaria</h3>
+        <p>Pre jardín, jardín y transición. Básica primaria de primero a quinto año. </p>
+        <h3>Modalidad de alternancia</h3>
+        <p>Combinamos presencialidad con aprendizaje remoto, cumpliendo protocolos de bioseguridad.</p>
+      </section>
       <section></section>
     </main>
   );

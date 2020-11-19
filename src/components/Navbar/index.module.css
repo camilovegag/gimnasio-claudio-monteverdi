@@ -49,6 +49,10 @@ nav ul {
 .drawer {
   display: none;
 }
+.menu-icon {
+  height: 1.2rem;
+  width: 1.75rem;
+}
 
 @media (max-width: 1920px) {
   header {
