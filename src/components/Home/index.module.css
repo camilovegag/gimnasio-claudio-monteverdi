@@ -1,0 +1,82 @@
+main {
+  position: relative;
+}
+
+/* Schedule */
+.schedule {
+  height: 100vh;
+  padding: 15rem 6rem;
+}
+.schedule h2 {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+.schedule h3 {
+  color: #ff693b;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.schedule p {
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  max-width: 31rem;
+}
+/* Testimonials */
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 15rem 6rem;
+}
+.testimonials h2 {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 8rem;
+}
+
+.testimonials-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1920px) {
+  .schedule,
+  .testimonials {
+    padding: 15rem 9rem;
+  }
+}
+@media (max-width: 1440px) {
+  .schedule,
+  .testimonials {
+    padding: 9rem 6rem;
+  }
+}
+@media (max-width: 1366px) {
+  .schedule,
+  .testimonials {
+    padding: 6rem 4rem;
+  }
+}
+@media (max-width: 414px) {
+  .schedule,
+  .testimonials {
+    padding: 6rem 2rem;
+  }
+  .slide p {
+    width: 24rem;
+  }
+}
+@media (max-width: 375px) {
+  .schedule,
+  .testimonials {
+    padding: 5rem 1.2rem;
+  }
+}

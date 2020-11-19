@@ -1,13 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
     <Router>
       <Navbar />
-      <Switch></Switch>
+      <Switch>
+        <Route path="/" exact component={Home} />
+      </Switch>
       <Footer />
     </Router>
   );

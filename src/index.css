@@ -7,3 +7,14 @@
   font-weight: 400;
   line-height: normal;
 }
+
+@media (max-width: 414px) {
+  * {
+    font-size: 14px;
+  }
+}
+@media (max-width: 320px) {
+  * {
+    font-size: 12px;
+  }
+}
