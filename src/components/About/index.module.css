@@ -1,0 +1,52 @@
+.claudio-monteverdi {
+  display: flex;
+  padding: 0 96px;
+  width: 100vw;
+}
+.claudio-monteverdi img {
+  height: 45vw;
+  width: 45vw;
+}
+
+@media (max-width: 1920px) {
+  .claudio-monteverdi {
+    padding: 216px 144px 0;
+  }
+}
+@media (max-width: 1440px) {
+  .claudio-monteverdi {
+    padding: 144px 96px;
+  }
+}
+@media (max-width: 1366px) {
+  .claudio-monteverdi {
+    padding: 96px 64px;
+  }
+}
+@media (max-width: 1024px) {
+  .claudio-monteverdi {
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .claudio-monteverdi img {
+    height: 50vw;
+    width: 50vw;
+  }
+}
+
+@media (max-width: 414px) {
+  .claudio-monteverdi {
+    padding: 96px 32px;
+  }
+}
+@media (max-width: 375px) {
+  .claudio-monteverdi {
+    padding: 80px 16px;
+  }
+}
+@media (max-width: 360px) {
+  .claudio-monteverdi {
+    padding: 64px 16px;
+  }
+}

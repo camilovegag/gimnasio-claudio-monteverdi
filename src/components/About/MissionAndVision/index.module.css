@@ -1,0 +1,52 @@
+.mission-and-vision {
+  display: grid;
+  grid-template-columns: 50vw auto;
+}
+.mission-and-vision-text {
+  padding: 144px 96px;
+  height: 100vh;
+}
+.mission-and-vision-color {
+  background-color: #7cc3da;
+}
+
+@media (max-width: 1920px) {
+  .mission-and-vision-text {
+    padding: 216px 144px 0;
+  }
+}
+@media (max-width: 1440px) {
+  .mission-and-vision-text {
+    padding: 144px 96px;
+  }
+}
+@media (max-width: 1366px) {
+  .mission-and-vision-text {
+    padding: 96px 64px;
+  }
+}
+@media (max-width: 1024px) {
+  .mission-and-vision {
+    grid-template-columns: 70vw auto;
+  }
+}
+@media (max-width: 800px) {
+  .mission-and-vision {
+    grid-template-columns: 100vw auto;
+  }
+}
+@media (max-width: 414px) {
+  .mission-and-vision-text {
+    padding: 96px 32px;
+  }
+}
+@media (max-width: 375px) {
+  .mission-and-vision-text {
+    padding: 80px 16px;
+  }
+}
+@media (max-width: 360px) {
+  .mission-and-vision-text {
+    padding: 64px 16px;
+  }
+}

@@ -1,0 +1,52 @@
+.history {
+  display: grid;
+  grid-template-columns: 50vw auto;
+}
+.history-text {
+  padding: 240px 96px;
+  height: 100vh;
+}
+.history-color {
+  background-color: #ff693b;
+}
+
+@media (max-width: 1920px) {
+  .history-text {
+    padding: 312px 144px 0;
+  }
+}
+@media (max-width: 1440px) {
+  .history-text {
+    padding: 240px 96px;
+  }
+}
+@media (max-width: 1366px) {
+  .history-text {
+    padding: 192px 64px;
+  }
+}
+@media (max-width: 1024px) {
+  .history {
+    grid-template-columns: 70vw auto;
+  }
+}
+@media (max-width: 800px) {
+  .history {
+    grid-template-columns: 100vw auto;
+  }
+}
+@media (max-width: 414px) {
+  .history-text {
+    padding: 192px 32px;
+  }
+}
+@media (max-width: 375px) {
+  .history-text {
+    padding: 176px 16px;
+  }
+}
+@media (max-width: 360px) {
+  .history-text {
+    padding: 160px 16px;
+  }
+}

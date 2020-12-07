@@ -1,0 +1,58 @@
+.values {
+  padding: 144px 96px;
+  width: 100vw;
+}
+.values-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr [col-start]);
+  grid-template-rows: repeat(3, 1fr [row-start]);
+  grid-template-areas:
+    "love love love"
+    "honestity responsability empathy"
+    "punctuality solidarity respect";
+}
+
+@media (max-width: 1920px) {
+  .valuest {
+    padding: 216px 144px 0;
+  }
+}
+@media (max-width: 1440px) {
+  .values {
+    padding: 144px 96px;
+  }
+}
+@media (max-width: 1366px) {
+  .values {
+    padding: 96px 64px;
+  }
+}
+@media (max-width: 1024px) {
+  .values-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 1fr [row-start]);
+    grid-template-areas:
+      "love"
+      "honestity"
+      "responsability"
+      "empathy"
+      "punctuality"
+      "solidarity"
+      "respect";
+  }
+}
+@media (max-width: 414px) {
+  .values {
+    padding: 96px 32px;
+  }
+}
+@media (max-width: 375px) {
+  .values {
+    padding: 80px 16px;
+  }
+}
+@media (max-width: 360px) {
+  .values {
+    padding: 64px 16px;
+  }
+}
