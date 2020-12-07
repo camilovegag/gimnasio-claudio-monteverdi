@@ -1,6 +1,5 @@
 import React from "react";
 import TextTemplate from "./TextTemplate";
-import FlipCard from "./Card";
 import History from "./History";
 import MissionAndVision from "./MissionAndVision";
 import Values from "./Values";
@@ -15,7 +14,11 @@ const About = () => {
       <section className={styles["claudio-monteverdi"]}>
         <TextTemplate
           title="¿Quién fue Claudio Monteverdi?"
-          firstParagraph="En el Gimnasio Claudio Monteverdi, nos proyectamos como un colegio innovador, que trabaja para descubrir y fortalecer los talentos propios de cada uno de sus estudiantes.  En 2025, seremos reconocidos por haber consolidado una propuesta pedagógica que se adapta a las diferentes necesidades y características de los estudiantes y sus familias."
+          firstParagraph="Claudio Monteverdi, músico y compositor Italiano del siglo XVI revolucionó la concepción del arte musical con el surgimiento de la ópera. Representa innovación, su movimiento artístico nos inspira a explorar en la musica, danza, arte plastico, canto e interpretación instrumental."
+        />
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/claudio-monteverdi.appspot.com/o/imagenes%2FClaudio%20Monteverdi.png?alt=media&token=fb998a77-6151-49c9-81ca-7771b39827bc"
+          alt="Ilustración de Claudio Monteverdi"
         />
       </section>
     </main>
